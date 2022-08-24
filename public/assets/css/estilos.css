@@ -1,0 +1,123 @@
+/*        Header       */
+/***********************/
+
+.encabezado {
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.encabezado div {
+  background: #486494;
+}
+
+.encabezado div .perfil {
+  background-image: url(../img/foto.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.encabezado div .contacto {
+  padding: 3rem 2.5rem;
+}
+
+.encabezado div .contacto h2 {
+  color: #ffffff;
+}
+
+.encabezado div .contacto label {
+  color: #99aaca;
+  padding: 0.5rem 0rem;
+}
+
+.encabezado div .contacto svg {
+  color: #99aaca;
+  margin-right: 0.3rem;
+}
+
+/*       Principal      */
+/************************/
+
+.principal {
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.principal .container {
+  border: 1px solid rgba(130, 130, 130, 0.28);
+  box-shadow: 1px 1px 1px 1px rgba(63, 63, 63, 0.1);
+  padding: 2.5rem 0rem;
+}
+
+.principal .container .linea{
+  border-right: 1px solid #bdbdbd;
+}
+
+.principal .container .columna{
+  padding: 0rem 2.8rem;
+}
+
+.principal div h4 {
+  color: #486494;
+}
+
+.principal div h6 {
+  margin: 1rem auto 0rem;
+}
+
+.principal div p {
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.principal div label {
+  color: #8d8d8d;
+  padding: 0.2rem 0rem 0rem 0rem;
+}
+
+.principal div strong {
+  font-weight: 600;
+}
+
+.principal div .parrafo {
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.principal div .barra {
+  height: 15px;
+  position: relative;
+  background: #cccccc;
+  border-radius: 25px;
+  padding: 3px;
+  margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.principal div .barra>span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #486494;
+  position: relative;
+  overflow: hidden;
+  animation: prog 2s linear;
+  border-radius: 25px;
+}
+
+@keyframes prog {
+  0% {
+    width: 0%
+  }
+
+  100% {
+    width: 100%
+  }
+}
+
+.lista{
+  list-style-type: square;
+  color: #486494;
+}
+
+.lista b{
+  color: #000000;
+  font-weight: 450;
+}
